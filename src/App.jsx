@@ -32,7 +32,7 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center h-screen">
+    <div className="flex justify-center items-center h-screen m-0">
       {!gameStart ? (        
       <StartingScreen change={handleChange} value={{p1: pName.p1, p2: pName.p2}} start={()=> {
         setGameStart(true);
